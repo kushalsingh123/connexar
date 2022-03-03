@@ -3,15 +3,20 @@ import Header from "../components/includes/Header";
 import HomebgImage from "../assets/web_home.png";
 import WithScrollbar from "../components/WithScrollbar";
 import logo from "./../assets/logo.svg";
-import img1 from "./../assets/netter.jpg";
-import img2 from "./../assets/skrill.jpg";
-import img3 from "./../assets/metaquotes.jpg";
-import img4 from "./../assets/bit .jpg";
-import img5 from "./../assets/visa.jpg";
-import img6 from "./../assets/t.jpg";
-import img7 from "./../assets/google.jpg";
-import img8 from "./../assets/master.jpg";
-import img9 from "./../assets/wire transfer.jpg";
+import img1 from "./../assets/nettelerN.svg";
+import img2 from "./../assets/skrilln.svg";
+import img3 from "./../assets/metaN.png";
+import img4 from "./../assets/bitn.svg";
+import img5 from "./../assets/visan.svg";
+import img6 from "./../assets/tn.svg";
+import img7 from "./../assets/googlen.svg";
+import img8 from "./../assets/mastern.svg";
+import img9 from "./../assets/wire transfern.svg";
+import img10 from "./../assets/Forex.png";
+import img11 from "./../assets/lindes.png";
+import img12 from "./../assets/Commodities.png";
+import img13 from "./../assets/Crypto-1.png";
+import blog_cad from "./../assets/home_bg.png";
 
 export default function Home() {
   useEffect(() => {
@@ -116,7 +121,7 @@ export default function Home() {
             </h3>
 
             <div class="row">
-              <div class="col-md-4 mt-2 mb-3">
+              <div class="col-md-4 mt-2 mb-3 bx-border">
                 <div class="box-tech">
                   <div class="content">
                     <center>
@@ -125,8 +130,8 @@ export default function Home() {
                         alt=""
                       />
                     </center>
-                    <p className="mb-0">Tight Spread</p>
-                    <p>from 0.01</p>
+                    <p className="mb-0">Tight Spread </p>
+                    <p> from 0.01</p>
                     <div class="desc">
                       <center>
                         <div class="line"></div>
@@ -140,7 +145,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div class="col-md-4 mt-2 mb-3">
+              <div class="col-md-4 mt-2 mb-3 bx-border">
                 <div class="box-tech">
                   <div class="content">
                     <center>
@@ -164,7 +169,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div class="col-md-4 mt-2 mb-3">
+              <div class="col-md-4 mt-2 mb-3 bx-border">
                 <div class="box-tech">
                   <div class="content">
                     <center>
@@ -189,7 +194,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div class="col-md-4 mt-2 mb-3">
+              <div class="col-md-4 mt-2 mb-3 bx-border">
                 <div class="box-tech">
                   <div class="content">
                     <center>
@@ -213,7 +218,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div class="col-md-4 mt-2 mb-3">
+              <div class="col-md-4 mt-2 mb-3 bx-border">
                 <div class="box-tech">
                   <div class="content">
                     <center>
@@ -237,7 +242,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div class="col-md-4 mt-2 mb-3">
+              <div class="col-md-4 mt-2 mb-3 bx-border">
                 <div class="box-tech">
                   <div class="content">
                     <center>
@@ -261,7 +266,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div class="col-md-6 mt-2 mb-3">
+              <div class="col-md-6 mt-2 mb-3 bx-border">
                 <div class="box-tech ">
                   <div class="content">
                     <center>
@@ -281,7 +286,7 @@ export default function Home() {
                         Adobe Captivate is one of the leading eLearning
                         authoring tools.
                       </p>
-                      <div className="text-center mt-2 mb-2">
+                      <div className="text-center mt-2 mb-2 bx-border">
                         <button className="btn btn-color-blue btn-block">
                           Know More
                         </button>
@@ -291,7 +296,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div class="col-md-6 mt-2 mb-3 ">
+              <div class="col-md-6 mt-2 mb-3 bx-border">
                 <div class="box-tech">
                   <div class="content">
                     <center>
@@ -310,7 +315,7 @@ export default function Home() {
                       <p>
                         Adobe Captivate is one of the leading eLearning
                         authoring tools.
-                        <div className="text-center mt-2 mb-2">
+                        <div className="text-center mt-2 mb-2 bx-border">
                           <button className="btn btn-color-blue btn-block">
                             Know More
                           </button>
@@ -409,7 +414,9 @@ export default function Home() {
               <div className="col-md-6 mt-3">
                 <div className="card w-75 m-auto">
                   <div className="card-body">
-                    <div className="icons"></div>
+                    <div className="icons">
+                      <img src={img10} />
+                    </div>
                     <div className="cont-card">
                       <h4>FOREX</h4>
                       <p>
@@ -423,7 +430,9 @@ export default function Home() {
               <div className="col-md-6 mt-3">
                 <div className="card w-75 m-auto">
                   <div className="card-body">
-                    <div className="icons"></div>
+                    <div className="icons">
+                      <img src={img11} />
+                    </div>
                     <div className="cont-card">
                       <h4>INDICES</h4>
                       <p>20 index CFDs ,including CFDs and Index Futures.</p>
@@ -434,7 +443,9 @@ export default function Home() {
               <div className="col-md-6 mt-3">
                 <div className="card w-75 m-auto">
                   <div className="card-body">
-                    <div className="icons"></div>
+                    <div className="icons">
+                      <img src={img12} />
+                    </div>
                     <div className="cont-card">
                       <h4>COMMODITIES</h4>
                       <p>
@@ -447,7 +458,9 @@ export default function Home() {
               <div className="col-md-6 mt-3">
                 <div className="card w-75 m-auto">
                   <div className="card-body">
-                    <div className="icons"></div>
+                    <div className="icons">
+                      <img src={img13} />
+                    </div>
                     <div className="cont-card">
                       <h4>CRYPTOS</h4>
                       <p>Top 10 Tradable CRYPTOS brings more.</p>
@@ -468,43 +481,319 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="our_blogs">
+          <p className=" h1 font-weight-bold head_blg p-4">BLOG</p>
+          <div className="row m-0">
+            <div className="col-sm-4">
+              <div
+                className="card"
+                style={{ backgroundImage: `url(${blog_cad})` }}
+              >
+                <div className="card-body p-0">
+                  <div className="p-3">
+                    <h4 className="text-white font-weight-bold">
+                      How Much Should one Invest in the Forex Market ?
+                    </h4>
+
+                    <p className="text-white mt-3 mb-3">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five
+                      centuries, but also the leap into electronic typesetting,
+                      remaining
+                    </p>
+                  </div>
+                  <button className="btn d-flex justify-content-between p-2  blod_Read w-100">
+                    Read More
+                    <i
+                      class="fa fa-long-arrow-right"
+                      aria-hidden="true"
+                    ></i>{" "}
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div
+                className="card"
+                style={{ backgroundImage: `url(${blog_cad})` }}
+              >
+                <div className="card-body p-0">
+                  <div className="p-3">
+                    <h4 className="text-white font-weight-bold">
+                      How Much Should one Invest in the Forex Market ?
+                    </h4>
+
+                    <p className="text-white mt-3 mb-3">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five
+                      centuries, but also the leap into electronic typesetting,
+                      remaining
+                    </p>
+                  </div>
+                  <button className="btn d-flex justify-content-between p-2  blod_Read w-100">
+                    Read More
+                    <i
+                      class="fa fa-long-arrow-right"
+                      aria-hidden="true"
+                    ></i>{" "}
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div
+                className="card"
+                style={{ backgroundImage: `url(${blog_cad})` }}
+              >
+                <div className="card-body p-0">
+                  <div className="p-3">
+                    <h4 className="text-white font-weight-bold">
+                      How Much Should one Invest in the Forex Market ?
+                    </h4>
+
+                    <p className="text-white mt-3 mb-3">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five
+                      centuries, but also the leap into electronic typesetting,
+                      remaining
+                    </p>
+                  </div>
+                  <button className="btn d-flex justify-content-between p-2  blod_Read w-100">
+                    Read More
+                    <i
+                      class="fa fa-long-arrow-right"
+                      aria-hidden="true"
+                    ></i>{" "}
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-4">
+              <div
+                className="card"
+                style={{ backgroundImage: `url(${blog_cad})` }}
+              >
+                <div className="card-body p-0">
+                  <div className="p-3">
+                    <h4 className="text-white font-weight-bold">
+                      How Much Should one Invest in the Forex Market ?
+                    </h4>
+
+                    <p className="text-white mt-3 mb-3">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five
+                      centuries, but also the leap into electronic typesetting,
+                      remaining
+                    </p>
+                  </div>
+                  <button className="btn d-flex justify-content-between p-2  blod_Read w-100">
+                    Read More
+                    <i
+                      class="fa fa-long-arrow-right"
+                      aria-hidden="true"
+                    ></i>{" "}
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-4">
+              <div
+                className="card"
+                style={{ backgroundImage: `url(${blog_cad})` }}
+              >
+                <div className="card-body p-0">
+                  <div className="p-3">
+                    <h4 className="text-white font-weight-bold">
+                      How Much Should one Invest in the Forex Market ?
+                    </h4>
+
+                    <p className="text-white mt-3 mb-3">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five
+                      centuries, but also the leap into electronic typesetting,
+                      remaining
+                    </p>
+                  </div>
+                  <button className="btn d-flex justify-content-between p-2  blod_Read w-100">
+                    Read More
+                    <i
+                      class="fa fa-long-arrow-right"
+                      aria-hidden="true"
+                    ></i>{" "}
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-4">
+              <div
+                className="card"
+                style={{ backgroundImage: `url(${blog_cad})` }}
+              >
+                <div className="card-body p-0">
+                  <div className="p-3">
+                    <h4 className="text-white font-weight-bold">
+                      How Much Should one Invest in the Forex Market ?
+                    </h4>
+
+                    <p className="text-white mt-3 mb-3">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five
+                      centuries, but also the leap into electronic typesetting,
+                      remaining
+                    </p>
+                  </div>
+                  <button className="btn d-flex justify-content-between p-2  blod_Read w-100">
+                    Read More
+                    <i
+                      class="fa fa-long-arrow-right"
+                      aria-hidden="true"
+                    ></i>{" "}
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="our_partner">
+          <div className="text-center p-5">
+            <p className="h1 font-weight-bold text-white">OUR PARTNERS</p>
+          </div>
+
+          <div className="row justify-content-center">
+            <div className="pr_img">
+              <img src={img1} />
+            </div>
+
+            <div className="pr_img">
+              <img src={img2} />
+            </div>
+
+            <div className="pr_img">
+              <img src={img3} />
+            </div>
+
+            <div className="pr_img">
+              <img src={img4} />
+            </div>
+
+            <div className="pr_img">
+              <img src={img5} />
+            </div>
+
+            <div className="pr_img">
+              <img src={img6} />
+            </div>
+
+            <div className="pr_img">
+              <img src={img7} />
+            </div>
+            <div className="pr_img">
+              <img src={img8} />
+            </div>
+            <div className="pr_img">
+              <img src={img9} />
+            </div>
+          </div>
+        </section>
+
+        {/* <section className="section section-default mt-none mb-none">
+          <div className="container">
+            <h2 className="mb-sm text-center">
+              Our <strong>Partners</strong>
+            </h2>
+            <strong>
+              <div className="row m-0">
+                <div className="col-sm-6 col-md-4 col-lg-3">
+                  <div className="square-holder">
+                    <img
+                      alt=""
+                      src="https://www.pmits.co.uk/portals/0/images/partners/solar-communications-200.png"
+                    />
+                  </div>
+                </div>
+                <div className="col-sm-6 col-md-4 col-lg-3">
+                  <div className="square-holder">
+                    <img
+                      alt=""
+                      src="https://www.pmits.co.uk/portals/0/images/partners/cbf-200.png"
+                    />
+                  </div>
+                </div>
+                <div className="col-sm-6 col-md-4 col-lg-3">
+                  <div className="square-holder">
+                    <img
+                      alt=""
+                      src="https://www.pmits.co.uk/portals/0/images/partners/gxs-200.png"
+                    />
+                  </div>
+                </div>
+                <div className="col-sm-6 col-md-4 col-lg-3">
+                  <div className="square-holder">
+                    <img
+                      alt=""
+                      src="https://www.pmits.co.uk/portals/0/images/partners/jpr-200.png"
+                    />
+                  </div>
+                </div>
+                <div className="col-sm-6 col-md-4 col-lg-3">
+                  <div className="square-holder">
+                    <img
+                      alt=""
+                      src="https://www.pmits.co.uk/portals/0/images/partners/talk-internet-200.png"
+                    />
+                  </div>
+                </div>
+                <div className="col-sm-6 col-md-4 col-lg-3">
+                  <div className="square-holder">
+                    <img
+                      alt=""
+                      src="https://www.pmits.co.uk/Portals/0/img/opera3_logo.png"
+                    />
+                  </div>
+                </div>
+                <div className="col-sm-6 col-md-4 col-lg-3">
+                  <div className="square-holder">
+                    <img
+                      alt=""
+                      src="https://www.pmits.co.uk/Portals/0/pegasus-logo.png"
+                    />
+                  </div>
+                </div>
+                <div className="col-sm-6 col-md-4 col-lg-3">
+                  <div className="square-holder">
+                    <img
+                      alt=""
+                      src="https://www.pmits.co.uk/Portals/0/sage business partner.jpg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </strong>
+          </div>
+        </section> */}
         {/* <section className="our_partners">
-          <div className="row">
-            <div className="col-sm-3"></div>
-          </div>
-        </section> */}
-
-        {/* <section class="d-flex justify-content-xl-evenly flex-wrap align-content-sm-around">
-          <div class="">
-            <img src={img1} alt="logo" />
-          </div>
-          <div class="">
-            <img src={img2} alt="logo" />
-          </div>
-          <div class="">
-            <img src={img3} alt="logo" />
-          </div>
-          <div class="">
-            <img src={img4} alt="logo" />
-          </div>
-          <div class="">
-            <img src={img5} alt="logo" />
-          </div>
-          <div class="">
-            <img src={img6} alt="logo" />
-          </div>
-          <div class="">
-            <img src={img7} alt="logo" />
-          </div>
-          <div class="">
-            <img src={img8} alt="logo" />{" "}
-          </div>
-          <div class="">
-            <img src={img9} alt="logo" />
-          </div>
-        </section> */}
-
-        <section className="our _partners">
           <div className="text-center">
             <p className=" h1 text-white pt-5 pb-5">OUR PARTNERS</p>
           </div>
@@ -539,7 +828,7 @@ export default function Home() {
               <img src={img9} />
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </>
   );

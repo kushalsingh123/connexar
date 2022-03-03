@@ -13,7 +13,7 @@ const Header = () => {
               <img src={logo} className="d-inline-block align-top" alt="" />
             </NavLink>
             <nav className="my-auto">
-              <button className="hm-btn">
+              <button className="hm-btn1">
                 <span> Open Live Account</span>
               </button>
               <button className="hm-btn">
@@ -26,7 +26,7 @@ const Header = () => {
           <ul className="fst_sub">
             <li>
               <NavLink to="/">Account types</NavLink>
-              <ul class="submenu">
+              <ul className="submenu">
                 <li>
                   <a href="index.html">MT5 Account Types</a>
                 </li>
@@ -39,7 +39,6 @@ const Header = () => {
               </ul>
             </li>
             <li>
-              {" "}
               <NavLink to="/">Funding</NavLink>
             </li>
             <li>
@@ -58,7 +57,7 @@ const Header = () => {
               <NavLink to="/">Client Support</NavLink>
             </li>
             <li>
-              <button className="login-btn ">Login</button>
+              <button className="login-btn btn1">Login</button>
             </li>
           </ul>
         </div>
