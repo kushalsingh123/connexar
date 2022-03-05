@@ -1,5 +1,6 @@
 .bx-border {
   padding: 10px;
+  margin: 0px !important;
 }
 
 .bx-border:hover {
@@ -21,10 +22,10 @@
 .hm-btn1 {
   margin: 10px;
   border-radius: 0px;
-  font-size: 18px;
+  font-size: 14px;
   background-color: #00325a;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border: none;
   overflow: hidden;
   position: relative;
@@ -33,10 +34,10 @@
 .hm-btn {
   margin: 10px;
   border-radius: 0px;
-  font-size: 18px;
+  font-size: 14px;
   background-color: #e8721e;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border: none;
   overflow: hidden;
   position: relative;
@@ -110,6 +111,7 @@
 .down_nav .fst_sub > li > a {
   color: white;
   font-weight: 600;
+  font-size: 14px;
 }
 
 .down_nav .fst_sub > li > a:hover {
@@ -358,9 +360,17 @@ h2 {
  color: ; 
 } */
 
+.open_acc {
+  font-weight: 600;
+}
+
+.hed_weights {
+  font-weight: 600;
+}
+
 .desc {
-  line-height: 1.8rem;
-  font-size: 18px;
+  line-height: 1.9rem;
+  font-size: 16px;
 }
 
 .par_sec {
@@ -430,13 +440,14 @@ h2 {
 
 .trade_inst .h1 {
   color: grey;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
 .cont-card {
   border-radius: 0px;
   padding-top: 4.5rem;
+  font-weight: 600;
 }
 .cont-card h4 {
   color: #00325a;
@@ -560,6 +571,7 @@ h2 {
 
 .our_blogs .head_blg {
   color: #00325a;
+  font-weight: 600;
 }
 /* .square-holder {
   padding:30px;
@@ -598,11 +610,16 @@ h2 {
   /* background-blend-mode: color; */
   position: relative;
   margin: 1rem 10px;
+  height: 20rem;
+  border-radius: 0px;
 }
 
 .our_blogs .card-body {
   position: relative;
   z-index: 9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .our_blogs .card-body p {
@@ -619,4 +636,12 @@ h2 {
 
 .our_blogs {
   background-color: #eee;
+}
+
+.trade_inst .card {
+  border-radius: 10px;
+}
+
+.cont-card p {
+  font-size: 14px;
 }

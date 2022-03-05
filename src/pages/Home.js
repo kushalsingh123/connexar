@@ -351,7 +351,7 @@ export default function Home() {
           <div className="container ">
             <div className="row">
               <div className="col-sm-6 d-flex align-items-center">
-                <h5 className="mb-0 text-white">Open Your Account </h5>
+                <h4 className="mb-0 open_acc text-white">Open Your Account </h4>
               </div>
               <div className="col-sm-6 text-right">
                 <button className="btn crt_n">Create now !</button>
@@ -405,7 +405,7 @@ export default function Home() {
 
         <section className="trade_inst pb-4">
           <div className="container  p-4">
-            <p className="h1">TRADABLE INSTRUMENTS</p>
+            <p className="h1 hed_weights">TRADABLE INSTRUMENTS</p>
             <p className="h3">
               Trade and invest in 150+ Tradable instruments in markets today
             </p>
@@ -472,17 +472,17 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        {/* <section>
           <div class="responsive-map">
             <iframe
               className="maps"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889"
             ></iframe>
           </div>
-        </section>
+        </section> */}
 
         <section className="our_blogs">
-          <p className=" h1 font-weight-bold head_blg p-4">BLOG</p>
+          <p className=" h1 head_blg p-4">BLOG</p>
           <div className="row m-0">
             <div className="col-sm-4">
               <div
@@ -499,10 +499,7 @@ export default function Home() {
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries, but also the leap into electronic typesetting,
-                      remaining
+                    
                     </p>
                   </div>
                   <button className="btn d-flex justify-content-between p-2  blod_Read w-100">
@@ -530,10 +527,7 @@ export default function Home() {
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries, but also the leap into electronic typesetting,
-                      remaining
+                    
                     </p>
                   </div>
                   <button className="btn d-flex justify-content-between p-2  blod_Read w-100">
@@ -561,42 +555,7 @@ export default function Home() {
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries, but also the leap into electronic typesetting,
-                      remaining
-                    </p>
-                  </div>
-                  <button className="btn d-flex justify-content-between p-2  blod_Read w-100">
-                    Read More
-                    <i
-                      class="fa fa-long-arrow-right"
-                      aria-hidden="true"
-                    ></i>{" "}
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-sm-4">
-              <div
-                className="card"
-                style={{ backgroundImage: `url(${blog_cad})` }}
-              >
-                <div className="card-body p-0">
-                  <div className="p-3">
-                    <h4 className="text-white font-weight-bold">
-                      How Much Should one Invest in the Forex Market ?
-                    </h4>
-
-                    <p className="text-white mt-3 mb-3">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries, but also the leap into electronic typesetting,
-                      remaining
+                    
                     </p>
                   </div>
                   <button className="btn d-flex justify-content-between p-2  blod_Read w-100">
@@ -625,10 +584,7 @@ export default function Home() {
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries, but also the leap into electronic typesetting,
-                      remaining
+                    
                     </p>
                   </div>
                   <button className="btn d-flex justify-content-between p-2  blod_Read w-100">
@@ -657,10 +613,36 @@ export default function Home() {
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries, but also the leap into electronic typesetting,
-                      remaining
+                    
+                    </p>
+                  </div>
+                  <button className="btn d-flex justify-content-between p-2  blod_Read w-100">
+                    Read More
+                    <i
+                      class="fa fa-long-arrow-right"
+                      aria-hidden="true"
+                    ></i>{" "}
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-4">
+              <div
+                className="card"
+                style={{ backgroundImage: `url(${blog_cad})` }}
+              >
+                <div className="card-body p-0">
+                  <div className="p-3">
+                    <h4 className="text-white font-weight-bold">
+                      How Much Should one Invest in the Forex Market ?
+                    </h4>
+
+                    <p className="text-white mt-3 mb-3">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                    
                     </p>
                   </div>
                   <button className="btn d-flex justify-content-between p-2  blod_Read w-100">
